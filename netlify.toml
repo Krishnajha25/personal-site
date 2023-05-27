@@ -1,0 +1,3 @@
+[build]
+  command = "npx lerna run build --scope=frontend"
+  publish = "packages/frontend/public"
