@@ -1,10 +1,9 @@
 "use client"
-
 import React, { useRef } from 'react'
 import Button from './components/Button'
 import { motion } from 'framer-motion'
 
-const index = () => {
+const Page = () => {
     const constraintsRef = useRef(null)
 
     return (
@@ -26,4 +25,4 @@ const index = () => {
     )
 }
 
-export default index
+export default Page
